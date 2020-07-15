@@ -1,0 +1,7 @@
+stages:
+  get_data:
+    cmd: papermill 00_get_data.ipynb -
+    deps:
+    - 00_get_data.ipynb
+    outs:
+    - data\raw\

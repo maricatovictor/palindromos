@@ -1,0 +1,8 @@
+get_data:
+  cmd: papermill 00_get_data.ipynb -
+  deps:
+  - path: 00_get_data.ipynb
+    md5: 6e4fd97a48b905d246ba5cbe0a9c6345
+  outs:
+  - path: data\raw\
+    md5: 33a912a5c9a0aea0d83d1a1ec91eaab9.dir
